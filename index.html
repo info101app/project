@@ -1,0 +1,75 @@
+
+  <!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8"/>
+      <title>Homepage</title>
+      <LINK href="styles.css" rel="stylesheet" type="text/css">
+      </head>
+ 
+    <body>
+      <!-- There are two main containers in the body: `nav-container` and `body-container`. 
+       The `nav-container` contains all navigation related elements, and is the same across all four pages.
+       The `body-container` contains content related to the page, and is different for each page.   -->
+      <div class="nav-container">
+        <h1 class="main-font" id="header-title"> CAR SHARE </h1>
+        <!-- I've wrapped each `<a>` or hyperlink inside a span to ensure all hyperlinks positioned one after the other. -->
+        <span class="nav-span">
+          <!-- Assigning `main-font` class to all <a> elements to override the default style -->
+          <a class="main-font" href="index.html">
+            Home
+          </a>
+        </span>
+        <span class="nav-span">
+          <a class="main-font" href="about.html">
+            About Us
+          </a>
+        </span>
+        <span class="nav-span">
+          <a class="main-font" href="contact.html">
+            Contact Us
+          </a>
+        </span>
+        <span class="nav-span">
+          <a class="main-font" href="register.html">
+            Register
+          </a>
+        </span>
+      </div>
+      <!--  -->
+      <div class="body-container">
+       <h2 class="main-font"> Latest offers </h2>
+         <!-- Here we are displaying the latest cars we are offering by using an ordered list, and removing the default style (bullet point) so it looks nicer. -->
+          <ul class="main-font ul-index" style="list-style-type:none">
+            <li>
+              <!-- `<strong>` transforms the characters in bold -->
+               <p>
+                <strong> Price: </strong> 
+               </p>
+                <p>
+                <strong> Model: </strong> 
+                </p>
+                <p> 
+                <strong> Description: </strong> 
+                  This red car... INSERT DESCRIPTION HERE
+                </p>
+              <img src="public/images/red_smart_car.jpg">
+            </li>
+            <br> <br>
+            <li>
+              <p>
+                <strong> Price: </strong> 
+              </p>
+              <p>
+                <strong> Model: </strong> 
+              </p>
+              <p> 
+                <strong> Description: </strong> 
+                This silver car... INSERT DESCRIPTION HERE
+              </p>
+            <img src="public/images/modern_silver_car.jpg">
+            </li>
+          </ul>        
+      </div>
+    </body>
+  </html>

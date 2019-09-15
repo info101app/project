@@ -1,0 +1,59 @@
+
+  <!doctype html>
+  <html>
+      <head>
+       <meta charset="utf-8"/>
+        <title>Register</title>
+        <LINK href="styles.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/login.js"></script>
+      </head>
+ 
+    <body>
+      <div class="nav-container">
+        <h1 class="main-font" id="header-title"> CAR SHARE </h1>
+        <span class="nav-span">
+          <a class="main-font" href="index.html">
+            Home
+          </a>
+        </span>
+        <span class="nav-span">
+          <a class="main-font" href="about.html">
+            About Us
+          </a>
+        </span>
+        <span class="nav-span">
+          <a class="main-font" href="contact.html">
+            Contact Us
+          </a>
+        </span>
+        <span class="nav-span">
+          <a class="main-font" href="register.html">
+            Register
+          </a>
+        </span>
+      </div>
+
+      <div class="body-container">
+       <h2 class="main-font"> Join Us </h2>
+       <div id="register-container">
+        <!-- Creating a register form which has the fields: username, email, passwords. Once the submit button is clicked it will trigger the validateForm() inside the login.js. If it passes the validation, it will let the user create an account. Otherwise, it displays an alert box which contains why the validation failed. -->
+          <form name="login-form" class="main-font register-form" onsubmit="return validateForm()">
+           <label for="email">Email Address</label> <br>
+           <input class="register-form" type="text" name="email" placeholder="Enter email address"> <br>
+
+           <label for="username">Username</label> <br>
+           <input class="register-form" type="text" name="username" placeholder="Enter username"> <br>
+
+           <label for="first-password">Password</label> <br>
+           <input class="register-form" type="password" name="first-password" placeholder="Enter password"> <br>
+
+           <!-- This second-password input prevents users from typing a typo in their password-->
+           <label for="second-password">Re-enter Password</label> <br>
+           <input class="register-form" type="password" name="second-password" placeholder="Re-enter password"> <br><br>
+
+          <input type="submit" value="Submit" id="submit">
+        </form> 
+       </div>
+      </div>
+    </body>
+  </html>

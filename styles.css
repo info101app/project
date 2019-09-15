@@ -1,0 +1,159 @@
+.nav-container {
+  padding: 5px;
+  text-align: center;
+}
+
+/** Changes the background color of the links when hovered. */
+a:hover {
+	background-color: #f48024;
+}
+
+#header-title {
+	font-size: 35px;
+	color: #960a0a
+}
+
+.nav-span {
+	padding: 45px 45px 0px 45px;
+}
+
+.body-container {
+	padding: 50px;
+	margin: 10px;
+}
+
+#about-image {
+	display: block;	
+	margin-left: auto;
+  	margin-right: auto;	
+	height: 350px;
+	width: 290px;
+}
+
+#image-caption { 
+	text-align: center;
+	font-size: 18px;
+	font-family: Impact, fantasy 
+}
+
+#register-container {
+	margin: 50px 400px 0px 400px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+#submit { 
+	float:left;
+	width:150px;
+	margin-top: 20px;
+}
+
+/*Font is inspired by the Goldie website https://www.goldiegoldie.com/*/
+p { 
+	font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+	letter-spacing: 0.1em;
+	line-height: 1.2;
+	font-size: 15px;
+	color: #a3320b;
+}
+
+a {
+	text-decoration:none;
+}
+
+h3 {
+	color: #e41e1b;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.main-font {
+	color: #b30303;
+	text-transform: uppercase;
+	font-family: Futura;
+}
+
+body {
+	background-color: #fffefa 
+}
+
+#about-container {
+	margin-top: 90px;
+}
+
+/**
+ I wanted to place `contact-map` and `contact-address` (which are both div or block elements) side by side. 
+ To achive this, I used the `float` option. 	
+ https://stackoverflow.com/questions/15374918/how-to-put-two-divs-side-by-side
+**/
+
+#contact-map {
+	float: right;
+	margin-top: 45px;
+	margin-right: 55px;
+}
+
+
+#contact-address {
+	float: left;
+	margin-top: 30px;
+}
+
+/*Font is inspired by the Goldie website https://www.goldiegoldie.com/*/
+.contact {
+	font-family: "Courier New",Courier,monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	letter-spacing: 0em;
+	line-height: 1.6em;
+	text-transform: none;
+	color: #222;
+}
+
+
+.ul-index {
+	margin-top: 60px;
+}
+/**
+ I got this from https://stackoverflow.com/questions/1896567/how-can-i-add-spaces-between-two-input-lines-using-css
+*/
+form {
+	float:left; 
+	width:300px;
+}
+
+label {
+	float:left;
+	width:150px;
+	margin-bottom:10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.register-form {
+	float:left;
+	width:150px;
+	margin-bottom:10px;
+}
+
+
+#submit {
+	width: 100px;
+	margin-left: 30px;
+}
+/**
+ This padding adds spaces between each image in the About page. 
+*/
+
+td {
+	padding-right: 90px;
+	padding-left: 55px;
+}
+
+#about-table img {
+	width:	250px;
+	height:	350px;
+}
